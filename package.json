@@ -8,7 +8,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "publish": "lerna publish"
+    "lerna": "lerna publish"
   },
   "author": "",
   "license": "ISC",
