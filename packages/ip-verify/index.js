@@ -1,1 +1,1 @@
-export * from './src/IpIdentify'
+export {default} from './src/IpIdentify'
