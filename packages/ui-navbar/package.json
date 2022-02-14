@@ -1,5 +1,5 @@
 {
-  "name": "@ruiku/ui-navbar",
+  "name": "ruiku-ui-navbar",
   "version": "0.0.4",
   "description": "",
   "main": "index.js",
@@ -8,5 +8,6 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "gitHead": "1e3aca4d4a86276651f27cb7100e377f76a1dd03"
 }
