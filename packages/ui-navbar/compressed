@@ -1,0 +1,32 @@
+.navbar {
+  height: 0.44rem;
+  z-index: 1; }
+  .navbar .navleft {
+    width: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center; }
+  .navbar .navright {
+    width: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center; }
+  .navbar .back {
+    width: 0.26rem;
+    height: 0.26rem;
+    padding: 0.05rem; }
+  .navbar .title {
+    font-size: 0.16rem;
+    font-weight: 400;
+    color: #fff;
+    flex: 1; }
+  .navbar .menu {
+    width: 0.26rem;
+    height: 0.26rem;
+    padding: 0.05rem; }
+    .navbar .menu > img {
+      width: 0.26rem;
+      height: 0.26rem;
+      display: block; }

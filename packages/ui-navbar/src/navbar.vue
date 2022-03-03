@@ -5,7 +5,7 @@
         class="back"
         v-if="!disableBack"
         @click="navBack"
-        :src="icon || defaultIcon"
+        :src="icon"
       />
     </div>
     <span class="title flex_center">{{ title }}</span>
@@ -18,7 +18,7 @@
 <script>
 export default {
   name: "navbar",
-  data(){ return { defaultIcon: require("./img/nav_back.png") }},
+  data(){ },
   props: ["icon", "title", "beforeNaviBack", "disableBack"],
   methods: {
     navBack() {

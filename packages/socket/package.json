@@ -2,9 +2,11 @@
   "name": "ruiku-socket",
   "version": "0.1.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "module":"dist/index.es.js",
+  "browser":"dist/index.umd.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npx rollup -c"
   },
   "keywords": [],
   "author": "",
